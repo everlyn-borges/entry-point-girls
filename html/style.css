@@ -1,0 +1,22 @@
+    p {
+        background-color: blue; 
+    }
+    input {
+        font-size: 20px;
+    }
+    #paragrafo-vermelho {
+        background-color: red;
+    }
+    
+    #input-azul {
+        background-color: blue; 
+        font-size: 20px;  
+    }
+    
+    .amarelo {
+        background-color: yellow;
+    }
+
+    .fonte-maior{
+        font-size: 25px !important;
+    }

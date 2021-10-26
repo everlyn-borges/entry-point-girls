@@ -1,0 +1,53 @@
+<DOCTYPE>
+    <html>
+        <head>
+            <litle>
+                Horas Trabalhadas
+            </litle>
+            <script type="text/javascript" src="horasTrabalhadas.js"></script>
+        </head>
+        <body>
+            <div>
+                <table>
+                    <!-- Início da primeira linha -->
+                    <tr>
+                        <td>
+                            <label for="">Nome:</label>
+                            <input id="nome" type="text" name="nome">
+                        </td>
+                    </tr>
+                    <!-- Fim da primeira linha -->
+                    <!-- Início da segunda linha -->
+                    <tr>
+                        <td>
+                            <label>Hora Entrada</label>
+                            <input id='horaEntrada' type="number" name="HoraEntrada">
+                        </td>
+                        <td>
+                            <label>Minuto Entrada</label>
+                            <input id='minutoEntrada' type="number" name="MinutoEntrada">
+                        </td>
+                    </tr>
+                    <!-- Fim da segunda linha -->
+                    <!-- Início da segunda linha -->
+                    <tr>
+                        <td>
+                            <label>Hora Saída</label>
+                            <input id='horaSaida' type="number" name="HoraSaida">
+                        </td>
+                        <td>
+                            <label>Minuto Saída</label>
+                            <input id='minutoSaida' type="number" name="MinutoSaida">
+                        </td>
+                    </tr>
+                    <!-- Fim da segunda linha -->
+                    <tr>
+                        <td>
+                            <button type="button" onclick="calcularTempoTrabalhado()">Verificar</button>
+                        </td>
+                    </tr>
+                </table>
+                <span id="HorasE"></span>
+            </div>
+        </body>
+    </html>
